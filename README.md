@@ -11,6 +11,8 @@ TODO:
    from the top down to the second from the bottom cell. You will be notified about the progress in real time
    with a sample text output with training progress every few epochs.
    E.G. set it to generate 600 tokens worth of text every 5 epochs.
+3. Add a cell at the end of the file that turns the fully trained AI model into a Huggingface-ready
+   GGUF file.
 
    NOTE!
    The default settings require approximately 90 GB of GPU VRAM. In order to train it on
